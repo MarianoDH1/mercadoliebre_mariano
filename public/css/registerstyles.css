@@ -1,0 +1,77 @@
+* {
+ box-sizing: border-box;
+ font-family: 'Roboto';
+ background-color: #ebebeb;
+ margin: 0;
+ padding: 0;
+}
+
+
+.form{
+    background-color:#ebebeb;
+    padding-bottom: 105px;    
+}
+
+.acompletar{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    height: 5vh;
+    border: 2px solid white;
+    border-radius: 5%;
+    background-color: white;
+
+}
+
+.formulario{
+    margin: auto;
+    padding: 5vw 5vh;
+
+}
+
+.fechaDeNacimiento{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 30%;
+}
+
+.vendedorComprador{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.tituloh4{
+    padding: 10px;
+}
+
+.checkbox{
+    display: block;
+    padding: 10px;
+
+}
+.intereses{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+}
+
+.enviarBorrar{
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 5vh;
+    border: 2px solid white;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.divfinal{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+

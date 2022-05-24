@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/registerstyles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Registro de Usuario</title>
+</head>
+<body>
+
+    <form class="form" action="" method="">
+      <div class="formulario">
+        <label name="nombre"></label>
+        <input class="acompletar" type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+      </div>
+      <div class="formulario">
+        <label name="nombreUsuario"></label>
+        <input class="acompletar" type="text" name="nombre" id="nombre" placeholder="Nombre de Usuario">
+      </div>
+      <div class="formulario">
+        <label name="email"></label>
+        <input class="acompletar" type="email" name="nombre" id="nombre" placeholder="E-mail">
+      </div>
+      <div class="formulario">
+        <label  class="fechaDeNacimiento" name="fechaDeNacimiento">Fecha de Nacimiento</label>
+        <input class="acompletar" type="date" name="fechaDeNacimiento" id="fechaDeNacimiento">
+      </div>
+      <div class="formulario">  
+        <label name="domicilio"></label>
+        <input class="acompletar" type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+      </div>
+      <div class="perfilUsuario"> 
+        <h4 class="tituloh4">Perfil del Usuario</h4>
+        <label class="vendedorComprador"> <div><input  type="radio" name="perfil" >comprador </div>
+          <div><input  type="radio" name="perfil" >vendedor</div></label>
+      </div>
+      <div class="intereses">
+        <h4 class="tituloh4">Intereses</h4>
+        <label class="checkbox">
+            <input type="checkbox" name="intereses">
+            Electro
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" name="intereses">
+            Moda
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" name="intereses">
+            Hogar
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" name="intereses">
+            Jugueteria
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" name="intereses">
+            Vida sana
+        </label>
+       </div>
+       <div>
+           <label class="imagenDePerfil" name="imagenDePerfil">Foto de Usuario</label>
+           <input type="file" name="imagenDePerfil" accept=".jpg, .png">
+       </div>
+       <div class="formulario">
+           <input class="acompletar" type="password" name="password" placeholder="password">
+       </div>
+       <div class="formulario">
+        <input class="acompletar" type="password" name="password2" placeholder="confirma tu password">
+       </div>
+       <div class="divfinal">
+           <input class="enviarBorrar" type="submit" value="Enviar">
+       </div> 
+       <div class="divfinal">
+        <input class="enviarBorrar" type="reset" value="Borrar">
+    </div> 
+
+
+    </form>
+    
+</body>
+</html>
+
+
