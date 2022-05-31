@@ -1,7 +1,6 @@
 * {
  box-sizing: border-box;
  font-family: 'Roboto';
- background-color: #ebebeb;
  margin: 0;
  padding: 0;
 }
@@ -29,11 +28,17 @@
 
 }
 
+
+.formfecha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
 .fechaDeNacimiento{
-    margin: auto;
-    text-align: center;
+   
     font-weight: bold;
-    padding-left: 30%;
 }
 
 .vendedorComprador{
@@ -74,4 +79,6 @@
     text-align: center;
     padding: 10px;
 }
+
+
 

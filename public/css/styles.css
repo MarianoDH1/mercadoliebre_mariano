@@ -27,8 +27,6 @@ Descripciones: 16px
 
 header{
     background-color: #EAC926;
-    display: flex;
-    flex-wrap: wrap;
     height: 30%;
 }
 
@@ -201,25 +199,33 @@ main section article:hover i{
 }
 @media (min-width: 361px){
 
-    header div{
-        text-align: left;
-        max-width: 65vw;
-        margin-left: 10px;
-        margin-right: 0;
-        
+    .primerpisoheader{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 0;
     }
 
     .texto-destacado{
-        width: 30vw;
-        height: 12%;
-        text-align: right;
-        padding-right: 1vw;
-        padding-top: 7vh;
+        font-size: 6px;
+    }
+
+
+
+    .texto{
+        font-size: 6px;
     }
 
     .buscador{
-        width: 20vw;        
+        width: 20vw;
+        font-size: 8px;
+        height: 15px;      
         
+    }
+    
+    .fa-search{
+        font-size: 8px;
     }    
 
     .logo{
@@ -231,6 +237,7 @@ main section article:hover i{
 
     .descripciones {
         display: block;
+        width: 100%;
     }
 
     .imagenes{
@@ -243,30 +250,31 @@ main section article:hover i{
     }
 
     .detalle {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
         max-height: 7vh;
         
     }
 
     .navbar{
         display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
         width: 100%;
     }
 
     .primerul{
-        width: 35vw;
+        width: 45vw;
         margin-right: 0px;
+        display: flex;
+        flex-direction: row;
         
     }
 
     .segundaul{
-        width:35vw;
+        width: 45vw;
         margin-right: 0px;
-        text-align: right;
-        position: absolute;
-        right: 5%;
+        display: flex;
+        flex-direction: row;
                 
     }
 
@@ -288,6 +296,8 @@ main section article:hover i{
     } 
 
     .titulares{
+        font-size: 15px;
+        font-weight: bold;
         width: 100%;
         margin: 15px 15px;
         display: inline-block;
@@ -317,19 +327,46 @@ main section article:hover i{
 
     .fa-credit-card{
         font-size: 5vh;
+
+    }
+    main section article i{
+
+    font-size: 8px;
+    width: 20px;
+    height: 20px;
+    
+
+    }
+
+    .descripciones, .descuentos{
+        font-size: 10px;
+    }
+    .descuentos{
+        width: 30%;
+    }
+
+    
+
+    .precios{
+        font-size: 12px;
+        margin-right: 3px;
+    }
+
+    .detalle{
+        height: 100%;
+        padding: 15px 0 28px 15px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        
+        
     }
 
    
 
 }
 @media (min-width: 769px){
-    .texto-destacado{
-        width: 43vw;
-    }
-    .descripciones { 
-        display: block;
-    }
-
+    
     .imagenes{
         max-height: 60vh;
         
@@ -339,7 +376,7 @@ main section article:hover i{
             
     }
 
-    .detalle {
+    .detalle:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
@@ -350,7 +387,11 @@ main section article:hover i{
                 
     } 
     .texto{
-        font-size: 22px;
+        font-size: 12px;
+    }
+
+    .texto-destacado{
+        font-size: 14px;
     }
 
     
@@ -359,10 +400,28 @@ main section article:hover i{
 
 @media (min-width: 1300px){
     .texto{
-        font-size: 30px;
+        font-size: 22px;
     }
     .texto-destacado{
-        font-size: 30px;
+        font-size: 25px;
+    }
+    .buscador{
+        height: 25px;
+    }
+    .fa-search{
+        font-size: 20px;
+    }
+
+    .descuentos, .descripciones{
+        font-size: 16px;
+    }
+
+    .precios {
+        font-size: 18px;  
+    }
+
+    .detalle {
+    padding-bottom: 45px;
     }
 }
 
